@@ -41,13 +41,13 @@
                         <a class="nav-link" href="/#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#work">Work Experience</a>
+                        <a class="nav-link" href="/#experience-section">Work Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="hobbies">Hobbies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#education">Education</a>
+                        <a class="nav-link" href="/#education-section">Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#map">Visited Map</a>
@@ -59,12 +59,12 @@
     <div class="container py-5">
         <h2 class="text-center mb-4">My Hobbies</h2>
         <div class="row justify-content-center g-4">
-            {% for hobby in hobbies %}
+            {% for name, img in hobbies %}
             <div class="col-md-4 col-sm-6">
                 <div class="card shadow-sm h-100">
-                    <img src="{{ hobby.img }}" class="card-img-top" alt="{{ name }}">
+                    <img src="{{ img }}" class="card-img-top" alt="{{ name }}">
                     <div class="card-body text-center">
-                        <h5 class="card-title">{{ hobby.name }}</h5>
+                        <h5 class="card-title">{{ name }}</h5>
                     </div>
                 </div>
             </div>
