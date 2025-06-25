@@ -2,7 +2,7 @@
   "url": "http://localhost:5001",
 
   "about": {
-    "image": "/static/img/yifang_photo.jpg",
+    "image": "/static/img/yifang_photo.JPG",
     "name": "Yifang Guo",
     "aboutme": "Hi, I’m Yifang, a Master’s student in Software Design and Development at the University of Galway, with a strong foundation in Java, Python, and cloud technologies. I thrive in fast-paced environments where I can apply my technical skills to solve complex problems."
   },
