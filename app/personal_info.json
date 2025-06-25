@@ -2,15 +2,15 @@
   "url": "http://localhost:5001",
 
   "about": {
-    "image": "/static/img/photo1.jpg",
-    "name": "Emmanuel Karibiye",
-    "aboutme": "Hi! I'm Emmanuel Karibiye, a passionate developer and tech enthusiast. I enjoy building clean, user-friendly web applications and continuously learning new technologies. When I'm not coding, I love music, gaming, exploring new ideas, and collaborating with like-minded creatives."
+    "image": "/static/img/yifang_photo.jpg",
+    "name": "Yifang Guo",
+    "aboutme": "Hi, I’m Yifang, a Master’s student in Software Design and Development at the University of Galway, with a strong foundation in Java, Python, and cloud technologies. I thrive in fast-paced environments where I can apply my technical skills to solve complex problems."
   },
 
   "hobbies": [
-    { "name": "hiking",       "img": "/static/img/hobby_imgs/hiking.png"       },
-    { "name": "photography",  "img": "/static/img/hobby_imgs/photography.png"  },
-    { "name": "music",        "img": "/static/img/hobby_imgs/music.png"        }
+    { "name": "Hiking",       "img": "/static/img/hobby_imgs/hiking.png"       },
+    { "name": "Photography",  "img": "/static/img/hobby_imgs/photography.png"  },
+    { "name": "Tennis",        "img": "/static/img/hobby_imgs/tennis.png"        }
   ],
 
   "education": [
@@ -33,35 +33,35 @@
   "experience": [
     {
       "role":     "Software Engineering Intern",
-      "company":  "JP Morgan Chase & Co.",
+      "company":  "Millennium (Top Hedge Fund)",
       "duration": "June 2024 – August 2024",
       "details": [
-        "Developed a back-end application using Java Spring Boot, Terraform, Docker, and AWS to perform data validation and quality checks.",
-        "Created a RESTful API with MySQL to store and manage data.",
-        "Resolved critical data-quality bugs, helping protect the security of over 80 million clients globally."
+        "Developed AWS parameter store migration tool via Python library Alembic, and utilized CI/CD pipeline to automate migration in various environments. Significantly reducing manual effort when creating parameters in each environment.",
+        "Developed Kafka Topics Copy UI with Hangfire framework, to allow developers to copy Kafka topics from one environment to another environment. Optimized workflow efficiency by enabling parallel execution of copy jobs, eliminating the need for sequential job processing and vastly improving overall productivity.",
+        "Strengthened financial knowledge through targeted market training and events, gaining a solid foundation in financial principles and industry dynamics."
       ]
     },
     {
-      "role":     "Data Analyst Intern",
-      "company":  "Wuxi Biologics",
-      "duration": "January 2023 – September 2023",
+      "role":     "Editorial Assistant",
+      "company":  "MDPI (Top OA Publisher)",
+      "duration": "June 2020 – July 2023",
       "details": [
-        "Performed analytics and visualisations on large datasets.",
-        "Automated dashboard generation using R, Python, SQL, and Tableau, improving team efficiency.",
-        "Resolved key Microsoft SQL issues involving over 50 000 rows of data."
+        "Supported the editorial process by formatting the English scientific manuscript (Word and LaTeX files), verifying that the format meets publishing requirements.",
+        "Converted Word or LaTeX files into XML files, guaranteeing that all papers can be displayed on MDPI website free of mistake.",
+        "Collaborated with international authors to facilitate the accurate and timely publication of research articles, fostering effective communication channels and ensuring adherence to publication timelines."
       ]
     },
     {
-      "role":     "Mechanical Engineering Intern",
-      "company":  "Silent Aire",
-      "duration": "July 2022 – September 2022",
+      "role":     "Training Assistant",
+      "company":  "MDPI (Top OA Publisher)",
+      "duration": "Part Time",
       "details": [
-        "Carried out pressure/leak analysis on the doors and came up with a design solution, boosting efficiency.",
-        "Designed plans and specified dimensions to be followed in building HVAC systems for data centres.",
-        "Observed and documented SOPs for building hyperscale ventilation systems."
+        "Conducted departmental training programs, providing onboarding skill training and advanced skill training to over 80 newcomers.",
+        "Designed and delivered experience-sharing training sessions over 10 times for a team of 600+ department members, resulting in a notable improvement in work efficiency.",
+        "Worked in Serbia for approximately 6 months, conducted advanced training sessions three times, and provided peer tutoring to over 10 colleagues."
       ]
     }
   ],
 
-  "countries": ["IRL", "CHN", "TUR", "SRB", "GBR", "USA"]
+  "countries": ["IRL", "CHN", "TUR", "SRB", "GBR"]
 }
