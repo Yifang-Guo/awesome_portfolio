@@ -14,4 +14,4 @@ pip install -r requirements.txt
 
 echo "Starting Flask server in new tmux session..."
 systemctl daemon-reload
-systemctl restart awesome_portfolio
+systemctl restart myportfolio.service
