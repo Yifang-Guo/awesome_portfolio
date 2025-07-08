@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "Killing all existing tmux sessions..."
-tmux kill-server 
 
 echo "Changing to project directory..."
 cd ~/awesome_portfolio
@@ -15,4 +13,5 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 echo "Starting Flask server in new tmux session..."
-tmux new-session -d -s flask_server "source .venv/bin/activate && flask run --host=0.0.0.0 --port=5000"
+systemctl daemon-reload
+systemctl restart awesome_portfolio
