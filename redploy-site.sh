@@ -12,6 +12,6 @@ echo "Activating virtual environment and installing dependencies..."
 source .venv/bin/activate
 pip install -r requirements.txt
 
-echo "Starting Flask server in new tmux session..."
+echo "Starting Flask server by using service..."
 systemctl daemon-reload
 systemctl restart myportfolio.service
