@@ -8,10 +8,8 @@ git checkout main
 git fetch
 git reset origin/main --hard
 
-echo "Activating virtual environment and installing dependencies..."
-source .venv/bin/activate
-pip install -r requirements.txt
+echo "Spin containers down to prevent out of memory issues on our VPS instances..."
+docker compose -f docker-compose.prod.yml down
 
-echo "Starting Flask server by using service..."
-systemctl daemon-reload
-systemctl restart myportfolio.service
+echo "Spinup Docker Containers using Docker Compose..."
+docker compose -f docker-compose.prod.yml up -d --build
