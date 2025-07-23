@@ -3,14 +3,14 @@
 I used Flask to build a portfolio site. This site is live on https://yifang-guo.duckdns.org/!
 
 ## Content
-- ✅ a photo of myself to the website
-- ✅ an "About youself" section to the website.
+- ✅ A photo of myself to the website
+- ✅ An "About youself" section to the website.
 - ✅ My previous work experiences
 - ✅ My hobbies (including images)
 - ✅ My current/previous education
-- ✅ Add a map of all the cool locations/countries I visited
-- ✅ Add a new page to display hobbies.
-- ✅ Add a menu bar that dynamically displays other pages in the app
+- ✅ A map of all the cool locations/countries I visited
+- ✅ A new page to display hobbies.
+- ✅ A menu bar that dynamically displays other pages in the app
 
 ## Getting Started
 
