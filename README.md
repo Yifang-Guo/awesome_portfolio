@@ -1,5 +1,23 @@
 # Production Engineering - Portfolio Site
 
+<p>
+  <a href="https://github.com/Yifang-Guo/awesome_portfolio/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Yifang-Guo/awesome_portfolio" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/yifang-guo/awesome_portfolio" alt="last update" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/network/members">
+    <img src="https://img.shields.io/github/forks/yifang-guo/awesome_portfolio" alt="forks" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/stargazers">
+    <img src="https://img.shields.io/github/stars/yifang-guo/awesome_portfolio" alt="stars" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/issues/">
+    <img src="https://img.shields.io/github/issues/yifang-guo/awesome_portfolio" alt="open issues" />
+  </a>
+</p>
+
 I used Flask to build a portfolio site. This site is live on https://yifang-guo.duckdns.org/!
 
 ## Content
