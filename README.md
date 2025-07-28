@@ -75,6 +75,34 @@ You should get a response like this in the terminal:
 
 You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser!
 
+## Docker compose
+
+### Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### Steps
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Yifang-Guo/awesome_portfolio.git
+   cd awesome_portfolio
+   ```
+
+2. Create the .env file
+
+   ```bash
+   cp example.env .env
+   ```
+
+3. Build and run the app
+
+   ```bash
+   docker compose -f docker-compose.yml up -d --build
+   ```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
