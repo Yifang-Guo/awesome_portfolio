@@ -21,14 +21,16 @@
 I used Flask to build a portfolio site. This site is live on https://yifang-guo.duckdns.org/!
 
 ## Content
+
 - ✅ A photo of myself to the website
-- ✅ An "About youself" section to the website.
+- ✅ An "About me" section to the website.
 - ✅ My previous work experiences
 - ✅ My hobbies (including images)
 - ✅ My current/previous education
 - ✅ A map of all the cool locations/countries I visited
 - ✅ A new page to display hobbies.
 - ✅ A menu bar that dynamically displays other pages in the app
+- ✅ A timeline post page
 
 ## Getting Started
 
@@ -39,6 +41,7 @@ You need to do all your progress here.
 Make sure you have python3 and pip installed
 
 Create and activate virtual environment using virtualenv
+
 ```bash
 $ python -m venv python3-virtualenv
 $ source python3-virtualenv/bin/activate
@@ -55,12 +58,14 @@ pip install -r requirements.txt
 Create a .env file using the example.env template (make a copy using the variables inside of the template)
 
 Start flask development server
+
 ```bash
 $ export FLASK_ENV=development
 $ flask run
 ```
 
 You should get a response like this in the terminal:
+
 ```
 ❯ flask run
  * Environment: development
@@ -68,7 +73,35 @@ You should get a response like this in the terminal:
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser! 
+You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser!
+
+## Docker compose
+
+### Prerequisites
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### Steps
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/Yifang-Guo/awesome_portfolio.git
+   cd awesome_portfolio
+   ```
+
+2. Create the .env file
+
+   ```bash
+   cp example.env .env
+   ```
+
+3. Build and run the app
+
+   ```bash
+   docker compose -f docker-compose.yml up -d --build
+   ```
 
 ## Contributing
 

@@ -52,7 +52,7 @@ def index():
     experiences  = personal_info.get("experience", [])
     countries    = personal_info.get("countries", [])
     
-    return render_template('index.html', title="MLH Fellow", about_info=about_info, educations=educations, experiences=experiences, countries=countries, url=os.getenv("URL"))
+    return render_template('index.html', title="Yifang", about_info=about_info, educations=educations, experiences=experiences, countries=countries, url=os.getenv("URL"))
   
 @app.route('/hobbies')
 def hobby():
