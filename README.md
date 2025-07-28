@@ -1,34 +1,34 @@
-# Production Engineering - Week 1 - Portfolio Site
+# Production Engineering - Portfolio Site
 
-Welcome to the MLH Fellowship! During Week 1, you'll be using Flask to build a portfolio site. This site will be the foundation for activities we do in future weeks so spend time this week making it your own and reflect your personality!
+<p>
+  <a href="https://github.com/Yifang-Guo/awesome_portfolio/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Yifang-Guo/awesome_portfolio" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/yifang-guo/awesome_portfolio" alt="last update" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/network/members">
+    <img src="https://img.shields.io/github/forks/yifang-guo/awesome_portfolio" alt="forks" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/stargazers">
+    <img src="https://img.shields.io/github/stars/yifang-guo/awesome_portfolio" alt="stars" />
+  </a>
+  <a href="https://github.com/yifang-guo/awesome_portfolio/issues/">
+    <img src="https://img.shields.io/github/issues/yifang-guo/awesome_portfolio" alt="open issues" />
+  </a>
+</p>
 
-## Tasks
+I used Flask to build a portfolio site. This site is live on https://yifang-guo.duckdns.org/!
 
-Once you've got your portfolio downloaded and running using the instructions below, you should attempt to complete the following tasks.
-
-For each of these tasks, you should create an [Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and work on them in a new [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches). When the task has been completed, you should open a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and get another fellow in your pod to give you feedback before merging it in.
-
-*Note: Make sure to include a link to the Issue you're progressing on inside of your Pull Request so your reviewer knows what you're progressing on!*
-
-### GitHub Tasks
-- [x] Create Issues for each task below
-- [x] Progress on each task in a new branch
-- [x] Open a Pull Request when a task is finished to get feedback
-
-### Portfolio Tasks
-- [x] Add a photo of yourself to the website
-- [x] Add an "About youself" section to the website.
-- [x] Add your previous work experiences
-- [x] Add your hobbies (including images)
-- [x] Add your current/previous education
-- [x] Add a map of all the cool locations/countries you visited
-
-### Flask Tasks
-- [x] Get your Flask app running locally on your machine using the instructions below.
-- [x] Add a template for adding multiple work experiences/education/hobbies using [Jinja](https://jinja.palletsprojects.com/en/3.0.x/api/#basics)
-- [x] Create a new page to display hobbies.
-- [x] Add a menu bar that dynamically displays other pages in the app
-
+## Content
+- ✅ A photo of myself to the website
+- ✅ An "About youself" section to the website.
+- ✅ My previous work experiences
+- ✅ My hobbies (including images)
+- ✅ My current/previous education
+- ✅ A map of all the cool locations/countries I visited
+- ✅ A new page to display hobbies.
+- ✅ A menu bar that dynamically displays other pages in the app
 
 ## Getting Started
 
@@ -69,8 +69,6 @@ You should get a response like this in the terminal:
 ```
 
 You'll now be able to access the website at `localhost:5000` or `127.0.0.1:5000` in the browser! 
-
-*Note: The portfolio site will only work on your local machine while you have it running inside of your terminal. We'll go through how to host it in the cloud in the next few weeks!* 
 
 ## Contributing
 
