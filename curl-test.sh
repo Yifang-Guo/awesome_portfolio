@@ -1,20 +1,22 @@
 #!/bin/bash
 
 # Configuration
-API_URL="http://127.0.0.1:5000/api/timeline_post"
+API_URL="https://yifang-guo.duckdns.org/api/timeline_post"
 RANDOM_ID=$RANDOM
 NAME="TestUser$RANDOM_ID"
 EMAIL="test$RANDOM_ID@example.com"
 CONTENT="This is a test post with ID $RANDOM_ID"
 
 # Step 1: POST a new timeline post
+for i in {1..5}; do 
 echo "Posting timeline entry..."
-POST_RESPONSE=$(curl -s -X POST "$API_URL" \
-  -d "name=$NAME" \
-  -d "email=$EMAIL" \
-  -d "content=$CONTENT")
+  POST_RESPONSE=$(curl -s -X POST "$API_URL" \
+    -d "name=$NAME" \
+    -d "email=$EMAIL" \
+    -d "content=$CONTENT")
 
-echo "Post response: $POST_RESPONSE"
+  echo "Post response: $POST_RESPONSE"
+done
 
 # Step 2: GET timeline posts
 echo "Fetching timeline entries..."
