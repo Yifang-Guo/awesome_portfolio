@@ -1,5 +1,11 @@
 import os
+import sys
+
 os.environ['TESTING'] = 'true'
+
+# Ensure the application package can be imported when running tests directly
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import unittest
 from app import app
 
@@ -21,7 +27,7 @@ class TestPortfolioApp(unittest.TestCase):
         self.assertEqual(resp.status_code, 200)
         html = resp.get_data(as_text=True)
         # Check for expected HTML elements and sections
-        self.assertIn("<title>MLH Fellow</title>", html)
+        self.assertIn("<title>Yifang</title>", html)
         self.assertIn('<header class="navbar', html)
         self.assertIn('<div class="profile">', html)
         self.assertIn('<section id="about"', html)
