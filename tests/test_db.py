@@ -1,5 +1,11 @@
 import os
+import sys
+
 os.environ['TESTING'] = 'true'
+
+# Ensure the application package can be imported when running tests directly
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import unittest
 from peewee import *
 from app import TimelinePost
