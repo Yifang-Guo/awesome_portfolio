@@ -235,3 +235,7 @@ svg {
 .hobbies-section ul li {
 	margin-bottom: 0.5em;
 }
+
+.btn.btn-primary {
+	background-color: #27583b !important;
+}
