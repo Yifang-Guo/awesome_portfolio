@@ -59,7 +59,7 @@ jobs:
       - name: Deploy site
         run: |
           echo "$PROJECT_ROOT"
-          ssh my-vps "cd $PROJECT_ROOT/awesome_portfolio && ls -la && ./redeploy-site.sh && docker compose ps"
+          ssh my-vps "cd $PROJECT_ROOT && ls -la && ./redeploy-site.sh && docker compose ps"
           
       - name: Notify Discord of success
         run: |
